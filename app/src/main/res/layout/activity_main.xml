@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EAEEF1"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="-3dp"
+        android:layout_y="-7dp"
+        android:src="@drawable/android" />
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="356dp"
+        android:layout_height="149dp"
+        android:layout_x="29dp"
+        android:layout_y="25dp"
+        android:text="Щастливите числа от тотото"
+        android:textColor="#FA0505"
+        android:textColorLink="#9C2E2E"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/bnt"
+        android:layout_width="314dp"
+        android:layout_height="73dp"
+        android:layout_x="44dp"
+        android:layout_y="617dp"
+        android:text="6 / 49"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/bnt2"
+        android:layout_width="314dp"
+        android:layout_height="73dp"
+        android:layout_x="44dp"
+        android:layout_y="529dp"
+        android:text="5 / 35"
+        android:textSize="36sp" />
+
+</AbsoluteLayout>
